@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ISpy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OaB-j7-hA8">
+                                <rect key="frame" x="67" y="125" width="241" height="400"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afroSamurai" translatesAutoresizingMaskIntoConstraints="NO" id="FIy-94-qOc">
+                                        <rect key="frame" x="0.0" y="0.0" width="241" height="400"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="FIy-94-qOc" firstAttribute="centerY" secondItem="OaB-j7-hA8" secondAttribute="centerY" id="5ei-jH-IeA"/>
+                                    <constraint firstItem="FIy-94-qOc" firstAttribute="leading" secondItem="OaB-j7-hA8" secondAttribute="leading" id="72X-Xk-gxH"/>
+                                    <constraint firstAttribute="bottom" secondItem="FIy-94-qOc" secondAttribute="bottom" id="8R2-GI-oPz"/>
+                                    <constraint firstItem="FIy-94-qOc" firstAttribute="centerX" secondItem="OaB-j7-hA8" secondAttribute="centerX" id="VBF-Kn-Xcq"/>
+                                    <constraint firstItem="FIy-94-qOc" firstAttribute="top" secondItem="OaB-j7-hA8" secondAttribute="top" id="XcQ-R1-Isz"/>
+                                    <constraint firstAttribute="trailing" secondItem="FIy-94-qOc" secondAttribute="trailing" id="iMC-8w-8tK"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OaB-j7-hA8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="105" id="4kK-Q4-Xgj"/>
+                            <constraint firstItem="OaB-j7-hA8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="G90-5F-HPw"/>
+                            <constraint firstItem="OaB-j7-hA8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HtO-Oz-PGt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OaB-j7-hA8" secondAttribute="bottom" constant="142" id="Oq4-Sz-tEM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="FIy-94-qOc" id="jbT-o8-fnQ"/>
+                        <outlet property="scroll" destination="OaB-j7-hA8" id="mBL-ON-zpR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="afroSamurai" width="313" height="313"/>
+    </resources>
+</document>
