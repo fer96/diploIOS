@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C942B502153180200FAE921 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C942B4F2153180200FAE921 /* MenuTableViewController.swift */; };
+		4C942B522153182700FAE921 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C942B512153182700FAE921 /* OrderTableViewController.swift */; };
+		4C942B5421531A5400FAE921 /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C942B5321531A5400FAE921 /* MenuItemDetailViewController.swift */; };
+		4C942B5621531CA100FAE921 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C942B5521531CA100FAE921 /* MenuItem.swift */; };
+		4C942B5821531EAD00FAE921 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C942B5721531EAD00FAE921 /* MenuController.swift */; };
 		CB5C726E214335FD0068A8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5C726D214335FD0068A8EC /* AppDelegate.swift */; };
 		CB5C7270214335FE0068A8EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5C726F214335FE0068A8EC /* ViewController.swift */; };
 		CB5C7273214335FE0068A8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5C7271214335FE0068A8EC /* Main.storyboard */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C942B4F2153180200FAE921 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		4C942B512153182700FAE921 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		4C942B5321531A5400FAE921 /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		4C942B5521531CA100FAE921 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		4C942B5721531EAD00FAE921 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		CB5C726A214335FD0068A8EC /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5C726D214335FD0068A8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB5C726F214335FE0068A8EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +73,11 @@
 				CB5C7276214335FF0068A8EC /* LaunchScreen.storyboard */,
 				CB5C7279214335FF0068A8EC /* Info.plist */,
 				CB5C727F21433A9B0068A8EC /* CategoryTableViewController.swift */,
+				4C942B4F2153180200FAE921 /* MenuTableViewController.swift */,
+				4C942B512153182700FAE921 /* OrderTableViewController.swift */,
+				4C942B5321531A5400FAE921 /* MenuItemDetailViewController.swift */,
+				4C942B5521531CA100FAE921 /* MenuItem.swift */,
+				4C942B5721531EAD00FAE921 /* MenuController.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -138,6 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C942B5821531EAD00FAE921 /* MenuController.swift in Sources */,
+				4C942B5621531CA100FAE921 /* MenuItem.swift in Sources */,
+				4C942B502153180200FAE921 /* MenuTableViewController.swift in Sources */,
+				4C942B5421531A5400FAE921 /* MenuItemDetailViewController.swift in Sources */,
+				4C942B522153182700FAE921 /* OrderTableViewController.swift in Sources */,
 				CB5C7270214335FE0068A8EC /* ViewController.swift in Sources */,
 				CB5C726E214335FD0068A8EC /* AppDelegate.swift in Sources */,
 				CB5C728021433A9B0068A8EC /* CategoryTableViewController.swift in Sources */,
