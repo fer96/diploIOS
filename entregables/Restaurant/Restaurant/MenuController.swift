@@ -9,6 +9,8 @@
 import UIKit
 
 class MenuController {
+    static let shared = MenuController()
+    
     let basedURL = URL(string: "http://localhost:8090/")!
     
     func fetchCategories(completion: @escaping ([String]?) -> Void){
@@ -68,5 +70,16 @@ class MenuController {
         task.resume()
     }
     
-    
+    func fetchImage(url: URL, completion: @escaping (UIImage?) -> Void) {
+        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+            if let data = data,
+                let image = UIImage(data: data) {
+                completion(image)
+            } else {
+                completion(nil)
+            }
+        }
+        
+        task.resume()
+    }
 }

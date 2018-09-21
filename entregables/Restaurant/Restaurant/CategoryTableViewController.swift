@@ -16,7 +16,7 @@ class CategoryTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        menuController.fetchCategories{ (categories) in
+        MenuController.shared.fetchCategories{ (categories) in
             if let categories = categories{
                 self.updateUI(with: categories)
             }
@@ -29,9 +29,9 @@ class CategoryTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 0
-    }
+//    override func numberOfSections(in tableView: UITableView) -> Int {
+//        return 1
+//    }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return categories.count
     }
