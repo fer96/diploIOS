@@ -13,7 +13,11 @@ class Music {
     
     static func fetchSongs(songName: String = "TheBeatles", onSuccess: @escaping ([Song]) -> Void) {
         
-        let url = URL(string: "https://itunes.apple.com/search?media=music&entity=song&term=\(songName)")
+        let songSearch: String  = songName.replacingOccurrences(of: " ", with: "-")
+        
+        //print(songSearch)
+        
+        let url = URL(string: "https://itunes.apple.com/search?media=music&entity=song&term=\(songSearch)")
         let task = urlSession.dataTask(with: url!) { data, response, error in
             if error == nil {
                 guard let statusCode = (response as? HTTPURLResponse)?.statusCode else {

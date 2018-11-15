@@ -26,26 +26,26 @@ class LabTunesUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-//    func testExample() {
-//        // Use recording to get started writing UI tests.
-//        // Use XCTAssert and related functions to verify your tests produce the correct results.
-//    }
+    func testExample() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
 
-//    //MARK: pruebas de interface
-//    func testAppLogin(){
-//        let app = XCUIApplication()
-//        let nameTextField = app.textFields["userField"]
-//        nameTextField.tap()
-//        nameTextField.typeText("iOSLab")
-//        
-//        let passwordTextField = app.secureTextFields["passwordField"]
-//        passwordTextField.tap()
-//        passwordTextField.typeText("verysecurepassword")
-//        
-//        let logginButton = app.buttons["loginButton"]
-//        logginButton.tap()
-//        XCTAssertTrue(app.isDisplayMusic)
-//    }
+    //MARK: pruebas de interface
+    func testAppLogin(){
+        let app = XCUIApplication()
+        let nameTextField = app.textFields["userField"]
+        nameTextField.tap()
+        nameTextField.typeText("iOSLab")
+        
+        let passwordTextField = app.secureTextFields["passwordField"]
+        passwordTextField.tap()
+        passwordTextField.typeText("verysecurepassword")
+        
+        let logginButton = app.buttons["loginButton"]
+        logginButton.tap()
+        XCTAssertTrue(app.isDisplayMusic)
+    }
     
 }
 
