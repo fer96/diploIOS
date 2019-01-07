@@ -10,3 +10,4 @@ Dentro del campo de la medicina y la salud un tema sensible son los transplantes
 ### Solución al problema
 Con el fin de reducir el número de transplantes que después rechazen el organo externo, se desarrollará una calculadora de riesgo para transplantes de coorneas. Esto mediante las características físicas del paciente (en una primera versión), la cual estime un porcentaje de éxito, a futuro, del transplante.   
 
++ Repositorio del proyecto final: https://github.com/fer96/CorneaRisk
