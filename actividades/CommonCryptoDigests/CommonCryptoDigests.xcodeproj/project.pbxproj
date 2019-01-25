@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB03BE2B2169151C0082C281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03BE2A2169151C0082C281 /* AppDelegate.swift */; };
+		CB03BE2D2169151C0082C281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03BE2C2169151C0082C281 /* ViewController.swift */; };
+		CB03BE302169151C0082C281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB03BE2E2169151C0082C281 /* Main.storyboard */; };
+		CB03BE322169151C0082C281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB03BE312169151C0082C281 /* Assets.xcassets */; };
+		CB03BE352169151C0082C281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB03BE332169151C0082C281 /* LaunchScreen.storyboard */; };
+		CB03BE402169151D0082C281 /* CommonCryptoDigestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03BE3F2169151D0082C281 /* CommonCryptoDigestsTests.swift */; };
+		CB03BE4E2169164A0082C281 /* Digests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03BE4D2169164A0082C281 /* Digests.swift */; };
+		CB03BE50216916830082C281 /* CDDigests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB03BE4F216916830082C281 /* CDDigests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB03BE3C2169151D0082C281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB03BE1F2169151C0082C281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB03BE262169151C0082C281;
+			remoteInfo = CommonCryptoDigests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB03BE272169151C0082C281 /* CommonCryptoDigests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonCryptoDigests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB03BE2A2169151C0082C281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB03BE2C2169151C0082C281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB03BE2F2169151C0082C281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB03BE312169151C0082C281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB03BE342169151C0082C281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB03BE362169151C0082C281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB03BE3B2169151D0082C281 /* CommonCryptoDigestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonCryptoDigestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB03BE3F2169151D0082C281 /* CommonCryptoDigestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCryptoDigestsTests.swift; sourceTree = "<group>"; };
+		CB03BE412169151D0082C281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB03BE4A216915DE0082C281 /* CommonCryptoDigests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonCryptoDigests-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB03BE4D2169164A0082C281 /* Digests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digests.swift; sourceTree = "<group>"; };
+		CB03BE4F216916830082C281 /* CDDigests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDDigests.m; sourceTree = "<group>"; };
+		CB03BE51216916940082C281 /* CDDigests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDDigests.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB03BE242169151C0082C281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB03BE382169151D0082C281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB03BE1E2169151C0082C281 = {
+			isa = PBXGroup;
+			children = (
+				CB03BE292169151C0082C281 /* CommonCryptoDigests */,
+				CB03BE3E2169151D0082C281 /* CommonCryptoDigestsTests */,
+				CB03BE282169151C0082C281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB03BE282169151C0082C281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB03BE272169151C0082C281 /* CommonCryptoDigests.app */,
+				CB03BE3B2169151D0082C281 /* CommonCryptoDigestsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB03BE292169151C0082C281 /* CommonCryptoDigests */ = {
+			isa = PBXGroup;
+			children = (
+				CB03BE2A2169151C0082C281 /* AppDelegate.swift */,
+				CB03BE2C2169151C0082C281 /* ViewController.swift */,
+				CB03BE2E2169151C0082C281 /* Main.storyboard */,
+				CB03BE312169151C0082C281 /* Assets.xcassets */,
+				CB03BE332169151C0082C281 /* LaunchScreen.storyboard */,
+				CB03BE362169151C0082C281 /* Info.plist */,
+				CB03BE4A216915DE0082C281 /* CommonCryptoDigests-Bridging-Header.h */,
+				CB03BE4D2169164A0082C281 /* Digests.swift */,
+				CB03BE4F216916830082C281 /* CDDigests.m */,
+				CB03BE51216916940082C281 /* CDDigests.h */,
+			);
+			path = CommonCryptoDigests;
+			sourceTree = "<group>";
+		};
+		CB03BE3E2169151D0082C281 /* CommonCryptoDigestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB03BE3F2169151D0082C281 /* CommonCryptoDigestsTests.swift */,
+				CB03BE412169151D0082C281 /* Info.plist */,
+			);
+			path = CommonCryptoDigestsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB03BE262169151C0082C281 /* CommonCryptoDigests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB03BE442169151D0082C281 /* Build configuration list for PBXNativeTarget "CommonCryptoDigests" */;
+			buildPhases = (
+				CB03BE232169151C0082C281 /* Sources */,
+				CB03BE242169151C0082C281 /* Frameworks */,
+				CB03BE252169151C0082C281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonCryptoDigests;
+			productName = CommonCryptoDigests;
+			productReference = CB03BE272169151C0082C281 /* CommonCryptoDigests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB03BE3A2169151D0082C281 /* CommonCryptoDigestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB03BE472169151D0082C281 /* Build configuration list for PBXNativeTarget "CommonCryptoDigestsTests" */;
+			buildPhases = (
+				CB03BE372169151D0082C281 /* Sources */,
+				CB03BE382169151D0082C281 /* Frameworks */,
+				CB03BE392169151D0082C281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB03BE3D2169151D0082C281 /* PBXTargetDependency */,
+			);
+			name = CommonCryptoDigestsTests;
+			productName = CommonCryptoDigestsTests;
+			productReference = CB03BE3B2169151D0082C281 /* CommonCryptoDigestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB03BE1F2169151C0082C281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "DeLaRosa Fernando";
+				TargetAttributes = {
+					CB03BE262169151C0082C281 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					CB03BE3A2169151D0082C281 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CB03BE262169151C0082C281;
+					};
+				};
+			};
+			buildConfigurationList = CB03BE222169151C0082C281 /* Build configuration list for PBXProject "CommonCryptoDigests" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB03BE1E2169151C0082C281;
+			productRefGroup = CB03BE282169151C0082C281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB03BE262169151C0082C281 /* CommonCryptoDigests */,
+				CB03BE3A2169151D0082C281 /* CommonCryptoDigestsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB03BE252169151C0082C281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB03BE352169151C0082C281 /* LaunchScreen.storyboard in Resources */,
+				CB03BE322169151C0082C281 /* Assets.xcassets in Resources */,
+				CB03BE302169151C0082C281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB03BE392169151D0082C281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB03BE232169151C0082C281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB03BE2D2169151C0082C281 /* ViewController.swift in Sources */,
+				CB03BE50216916830082C281 /* CDDigests.m in Sources */,
+				CB03BE2B2169151C0082C281 /* AppDelegate.swift in Sources */,
+				CB03BE4E2169164A0082C281 /* Digests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB03BE372169151D0082C281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB03BE402169151D0082C281 /* CommonCryptoDigestsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB03BE3D2169151D0082C281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB03BE262169151C0082C281 /* CommonCryptoDigests */;
+			targetProxy = CB03BE3C2169151D0082C281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB03BE2E2169151C0082C281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB03BE2F2169151C0082C281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB03BE332169151C0082C281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB03BE342169151C0082C281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB03BE422169151D0082C281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB03BE432169151D0082C281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB03BE452169151D0082C281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CommonCryptoDigests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fdlrs.CommonCryptoDigests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CommonCryptoDigests/CommonCryptoDigests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB03BE462169151D0082C281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CommonCryptoDigests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fdlrs.CommonCryptoDigests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CommonCryptoDigests/CommonCryptoDigests-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB03BE482169151D0082C281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CommonCryptoDigestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fdlrs.CommonCryptoDigestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommonCryptoDigests.app/CommonCryptoDigests";
+			};
+			name = Debug;
+		};
+		CB03BE492169151D0082C281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CommonCryptoDigestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fdlrs.CommonCryptoDigestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommonCryptoDigests.app/CommonCryptoDigests";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB03BE222169151C0082C281 /* Build configuration list for PBXProject "CommonCryptoDigests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB03BE422169151D0082C281 /* Debug */,
+				CB03BE432169151D0082C281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB03BE442169151D0082C281 /* Build configuration list for PBXNativeTarget "CommonCryptoDigests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB03BE452169151D0082C281 /* Debug */,
+				CB03BE462169151D0082C281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB03BE472169151D0082C281 /* Build configuration list for PBXNativeTarget "CommonCryptoDigestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB03BE482169151D0082C281 /* Debug */,
+				CB03BE492169151D0082C281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB03BE1F2169151C0082C281 /* Project object */;
+}
